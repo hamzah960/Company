@@ -259,7 +259,7 @@ button.carousel-control-next {
 
 footer {
     background-color: #393939;
-    color: #FFF;
+    color: $custom-color;
     .line1 {
         background-color: #FFF;
         height: 2px;
@@ -269,8 +269,9 @@ footer {
         color: #BBBBBB;
         margin-right: 20px;
         font-size: 90%;
-        &:hover {
-            color: #FFF;
+        &:hover,
+        &:focus {
+            color: $custom-color;
             text-decoration: none;
         }
     }
@@ -297,6 +298,12 @@ footer {
         button {
             border-radius: 0;
             font-size: 20px;
+            &:hover,
+            &:focus {
+                background-color: transparent;
+                color: $custom-color;
+                box-shadow: none;
+            }
         }
     }
     .copy-right-link,
@@ -305,9 +312,10 @@ footer {
         font-weight: bold;
     }
     .copy-right-link {
-        &:hover {
+        &:hover,
+        &:focus {
             text-decoration: none;
-            color: #FFF;
+            color: $custom-color;
         }
     }
 
