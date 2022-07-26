@@ -1,5 +1,8 @@
-$main-color: #FF7766;
-$custom-color: #EEE;
+@import './projects.scss';
+@import './variable';
+@import './blog.scss';
+@import './about.scss';
+@import './contact.scss';
 
 @font-face {
     font-family: "cairoFont";
@@ -320,6 +323,8 @@ footer {
     }
 
 }
+
+
 
 @media (max-width: 991px) {
     .top-menu {

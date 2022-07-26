@@ -1,0 +1,21 @@
+.banner-contact {
+    background-image: url(../images/banner-contact.jpg);
+}
+
+.contact-us {
+    #contact-info {
+        div {
+            margin-bottom: 15px;
+            svg {
+                color: $main-color;
+                margin-left: 5px;
+            }
+        }
+    }
+    .social-contact {
+        display: flex;
+        .one-social {
+            border-radius: 50%;
+        }
+    }
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>شركة عربي | إضافة تدوينة</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- Start Navbar -->
+            <section class="top-menu">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+                        <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand p-0" href="./index.html">
+                            <img src="./images/logo.png" alt="شركة عربي">
+                        </a>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item p-2">
+                                    <a class="nav-link" href="./index.html">الرئيسية</a>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <a class="nav-link" href="about.html">عن الشركة</a>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <a class="nav-link" href="projects.html">مشاريعنا</a>
+                                </li>
+                                <li class="nav-item active p-2">
+                                    <a class="nav-link" href="blog.html">المدونة</a>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <a class="nav-link" href="contact.html">تواصل معنا</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+            <!-- End Navbar -->
+
+            <!-- Start Banner -->
+            <div class="banner banner-blog">
+                <h1>إضافة تدوينة</h1>
+            </div>
+            <!-- End Banner -->
+
+            <!-- Start Add Blog -->
+            <section class="add-blog mt-4 mb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-7">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="adress">عنوان التدوينة</label>
+                                        <input type="text" id="adress" class="form-control mb-3">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>الصورة</label>
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="custom-file">
+                                            <label class="custom-file-label" for="custom-file">اختر صورة</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <label class="mt-4">تفاصيل التدوينة</label>
+                                        <textarea name="message" required placeholder="النص" cols="30" rows="5" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-light custom-btn mt-4">إضافة التدوينة</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>            
+            <!-- End Add Blog -->
+
+            <!-- Start Footer -->
+            <footer class="py-5">
+                <div class="container">
+                    <h4 class="text-center">
+                        شركة عربي
+                    </h4>
+                    <hr class="line1">
+                    <div class="footer-nav-link text-center">
+                        <a href="./index.html">الصفحة الرئيسية</a>
+                        <a href="about.html">من نحن</a>
+                        <a href="projects.html">المشاريع السابقة</a>
+                        <a href="blog.html">المدونة</a>
+                        <a href="contact.html">تواصل معنا</a>
+                    </div>
+                    <hr class="line2">
+                    <div class="text-center mb-3">
+                        <lable class="custom-heading">اشترك بالنشرة البريدية</lable>
+                        <form class="form form-inline justify-content-center mt-3">
+                            <div class="input-groub">
+                                <input type="email" placeholder="البريد الاكتروني">
+                                <button class="btn btn-light px-3" type="button">متابعة</button>
+                            </div>
+                        </form>
+                    </div>
+                    <hr class="line2">
+                    <div class="text-center">
+                        <a href="https://academy.hsoub.com/learn/front-end-web-development/" class="copy-right-link">
+                            دورة تطوير واجهات المستخدم من أكاديمية حسوب
+                        </a>
+                        <div class="copy-right">
+                            جميع الحقوق محفوظةأكاديمية حسوب <span id="date"></span> &copy;
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End Footer -->
+        </div>
+    </body>
+</html>
